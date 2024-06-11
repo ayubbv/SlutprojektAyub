@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Playfair Display;
+}
+body{
+    background-color: #f3f3f3;
+	font-family: Arial, sans-serif;
+   
+
+}
+nav img{
+    width:62px;
+    height: 62px;
+}
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    position: relative;
+    height: 70px;
+}
+
+
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    color: #000000;
+    font-size: 30px;
+}
+.welcome{
+    display: flex;
+    background-color: rgb(215,219,222);
+    height: 650px;
+    width: auto;
+     background-image: url("Images/Welcome2.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+    
+    
+}
+ div.welcometext{
+    
+    color: rgb(0, 0, 0);
+    top: 45%;
+    left: 800px;
+    width: 500px;
+}
+.welcometext .title{
+    display: flex;
+    font-size: 70px;
+    letter-spacing: none;
+    color: rgb(0, 0, 0);
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.Knapp a{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.421);
+    margin-top: 25px;
+    font-size: 28px;
+  border: #000000;
+    
+    margin-left: 90px;
+     }
+
+     .Knapp a:nth-child(1):hover{
+        background-color: transparent;
+    }
+    .Knapp a:nth-child(1){
+        background-color: transparent;
+        color: rgb(110, 110, 110);
+        border: 1px solid rgb(1, 1, 1);
+        
+    }
+
+
+.maincontainer{
+  display: flex;
+  width:100%;
+  padding:50px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.maincontainer img{
+    width: 400px;
+    height: 400px;
+}
+.maincontainer h2{
+    display: flex;
+    justify-content: end;
+    color: black;
+    text-decoration: none;
+ 
+}
+.maincontainer p{
+    color: black;
+    text-decoration: none;
+
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:40%;
+
+}
+.section .silver h1{
+    margin-left: 30px;
+}
+.section .silver .h2{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+
+}
+
+.All-silver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.silver2{
+    overflow: hidden;
+    background: #f0f0f0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 340px;
+    height: 440px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 2rem;
+}
+.silver2:hover img{
+    scale: 1.1;
+
+}
+.silver2:hover{
+    box-shadow: 5px 15px 25px ;
+}
+.silver2 img{
+    height: 200px;
+    margin: 1rem;
+    transition: all 0.3s;
+
+}
+.silver2 a:link, .silver2 a:visited{
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ababab;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: all 0,2s;
+}
+.footer{
+    background-color: rgb(215,219,222);
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer img{
+    margin-right: 100px;
+    width: 150px;
+    height: 100px;
+  }
+  
+  .Innehåll {
+    flex-basis: 30%;
+    margin: 20px;
+  }
+  
+  .Innehåll h2 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .Innehåll p {
+    margin-bottom: 10px;
+  }
+  
+  .Innehåll a {
+    margin-right: 10px;
+  }
+  
+  .Innehåll i {
+    font-size: 24px;
+    color: #666;
+  }
+  .karta {
+  
+    padding: 20px;
+    margin: 40px;
+    background-color: #f7f7f7; 
+    
+  }
+  
+  .karta > div {
+    
+    padding: 20px;
+  }
+  
+  .karta h2 {
+    
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .karta p {
+    
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .karta iframe {
+   
+    border: none;
+    width: 50%; 
+    height: 200px; 
+    margin-bottom: 20px;
+  }
+  
+  .karta a {
+    
+    text-decoration: none;
+    color: #337ab7; 
+  }
+  
+  .karta a:hover {
+    
+    color: #23527c; 
+  }
+
+  
+@media (max-width: 750px) {
+    .Innehåll {
+      flex-basis: 45%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .Innehåll {
+      flex-basis: 100%;
+    }
+  }
+@media screen and (max-width:600px) {
+   
+    
+    .welcometext{
+        margin-right: 30px;
+    }
+    .Knapp a{
+        margin-right: 50px;
+    }
+    .maincontainer{
+        border-color: #f4f4f4;
+    }  
+    .maincontainer img{ 
+        width: 165px;
+        height: 150px;
+        left: 30px;
+        
+    }
+    .maincontainer  .p1{
+        display: none;
+    }
+    
+    
+}
+@media screen and (min-width: 600px) {
+   
+  
+    .maincontainer .p2{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: rgb(235, 235, 235);
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+}
